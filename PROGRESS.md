@@ -30,9 +30,24 @@
    - Status tracking system with codes 0-4 (empty → exists → suspect → corrected → accepted)
    - English master as authoritative source of truth
 
+6. **Git Repository Setup**
+   - Initialized and configured three git repositories:
+     - **rdgtrans**: Main translation project at `/home/scott/gitrepos/rdgtrans/`
+       - Remote: https://github.com/scott009/rdgtrans
+       - Contains: workmaster.json, lmasters/, utility scripts
+       - Added archive/ to .gitignore
+       - Updated read_docs.sh to cd into project directory
+     - **rdgtransdocs**: Documentation at dochome
+       - Remote: https://github.com/scott009/rdgtransdocs
+       - Contains: Opguide.md, PROGRESS.md, projspec.md, functions.md
+     - **showoff**: Output files at winoutput
+       - Remote: https://github.com/scott009/showoff
+       - Contains: HTML/PDF translations, audio files
+   - All repositories initialized, committed, and pushed to GitHub
+   - All repositories on master branch with tracking configured
+
 ### Postponed for Later
 
-- Remote git repository setup and configuration
 - Remote URI updates in workmaster.json data_sources
 - Python utility scripts adaptation for new structure
 - Translation workflow automation
