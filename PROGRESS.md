@@ -82,4 +82,61 @@ Ready to continue with next phase of reorganization when additional context is p
 
 ---
 
-**Last Updated:** 2025-11-26
+## Session: 2025-11-27
+
+### Completed - Task 1: HTML Semantic Structure Optimization
+
+1. **English Version (rdgBook2.html)**
+   - Created semantic HTML version with proper heading hierarchy
+   - Changed book title to `<h1>` (was `<h2>`)
+   - Removed 225 misused `<h3 class="id-tag">` elements
+   - Added proper `id` attributes to all 225 paragraphs
+   - Converted 5 inquiry headings from `<p>` to `<h4>` (Five Precepts)
+   - Final structure: 1 H1, 30 H2, 14 H3, 5 H4
+   - Committed to showoff repository: https://scott009.github.io/showoff/rdgBook2.html
+
+2. **Thai Version (rdgThai2.html)**
+   - Applied same semantic improvements as English version
+   - Removed 351 misused `<h3 class="id-tag">` elements
+   - Added proper `id` attributes to all 351 paragraphs
+   - Converted 5 inquiry headings to `<h4>`
+   - Final structure: 1 H1, 44 H2, 5 H4
+   - **Fixed Table of Contents Navigation**
+     - Converted TOC entries from `<p>` tags to `<a>` links
+     - Created mapping from TOC text to chapter IDs (27 entries)
+     - TOC navigation now fully functional
+   - Committed to showoff repository: https://scott009.github.io/showoff/rdgThai2.html
+
+3. **Python Utilities Created**
+   - `fix_html_hierarchy.py` - Initial hierarchy fix for English
+   - `fix_inquiry_headings.py` - Fix inquiry precept headings
+   - `fix_html_semantic.py` - **Reusable script for all languages**
+     - Fixes H1 hierarchy
+     - Removes misused H3 id-tags
+     - Adds proper paragraph IDs
+     - Converts inquiry headings to H4
+   - `fix_thai_toc.py` - Convert TOC paragraphs to links
+   - `fix_thai_toc_mapping.py` - Map TOC links to chapter IDs
+   - Location: `/home/scott/gitrepos/rdgtrans/py/`
+
+4. **Accessibility Improvements**
+   - Proper semantic HTML hierarchy: H1 → H2 → H3 → H4
+   - Screen readers now see correct document outline
+   - IDs properly associated with content elements
+   - WAVE compliance testing performed
+   - Confirmed subtitles using `role="doc-subtitle"` is semantically correct
+
+### In Progress - Task 2: Translation Master Creation
+
+**Next:** Create tmasterThai.html - bilingual Thai/English master document for translation review
+
+### Notes
+
+- WAVE accessibility checker works best with English documents
+- TOC navigation required manual mapping due to text/ID mismatches in Thai
+- Semantic structure improvements ready to apply to remaining languages (Vietnamese, Japanese, Korean, Chinese)
+- All Python scripts are reusable for future language processing
+
+---
+
+**Last Updated:** 2025-11-27
