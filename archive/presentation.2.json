@@ -1,0 +1,191 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "description": "Presentation layer structure for RDG Asian translations.",
+    "last_updated": "",
+    "notes": ""
+  },
+
+  "pmaster": "presentation.json",
+
+  "paths": {
+    "wslpath": "/home/scott/gitrepos/RDGAsianMD",
+    "winoutput": "C:\\Users\\scott\\Documents\\RecoveryDharma\\RDGBook\\output_V1\\",
+    "wslwin": "\\\\wsl$\\Ubuntu\\home\\scott\\gitrepos\\REGAsianMD",
+    "workmasters": "\\\\wsl$\\Ubuntu\\home\\scott\\gitrepos\\RDGAsianMD\\workmasters",
+    "backup": "\\\\wsl$\\Ubuntu\\home\\scott\\gitrepos\\REGAsianMD\\workmasters\\archive",
+    "pyhome": "/home/scott/gitrepos/rdgtrans/py",
+    "dochome": "C:/Users/scott/Documents/AIProjects/Markdown/RDGTranslations",
+    "newhome": "\\\\wsl$\\Ubuntu\\home\\scott\\gitrepos\\rdgtrans"
+  },
+
+  "sections": {
+
+    "chapter_title_block": {
+      "id": "pr_1",
+      "elements": {
+        "english_title_label":        { "id": "pr_2"  },
+        "thai_title_label":           { "id": "pr_3"  },
+        "japanese_title_label":       { "id": "pr_17" },
+        "korean_title_label":         { "id": "pr_18" },
+        "chinese_simp_title_label":   { "id": "pr_19" },
+        "chinese_trad_title_label":   { "id": "pr_20" },
+        "vietnamese_title_label":     { "id": "pr_21" },
+        "comment_label":              { "id": "pr_4"  }
+      }
+    },
+
+    "reviewer_info_block": {
+      "id": "pr_5",
+      "elements": {
+        "page_header":         { "id": "pr_6" },
+        "section_heading":     { "id": "pr_7" },
+        "full_name_field":     { "id": "pr_8" },
+        "email_field":         { "id": "pr_9" },
+        "bio_field":           { "id": "pr_10" },
+        "overall_notes_field": { "id": "pr_11" }
+      }
+    },
+
+    "paragraph_edit_block": {
+      "id": "pr_12",
+      "elements": {
+        "paragraph_id_label":          { "id": "pr_13" },
+        "english_reference_label":     { "id": "pr_14" },
+        "thai_editable_label":         { "id": "pr_15" },
+        "japanese_editable_label":     { "id": "pr_22" },
+        "korean_editable_label":       { "id": "pr_23" },
+        "chinese_simp_editable_label": { "id": "pr_24" },
+        "chinese_trad_editable_label": { "id": "pr_25" },
+        "vietnamese_editable_label":   { "id": "pr_26" },
+        "comment_label":               { "id": "pr_16" }
+      }
+    }
+  },
+
+  "translation_sets": {
+
+    "english": {
+      "pr_2":  { "name": "english_title_label",          "text": "English Chapter Title:" },
+      "pr_3":  { "name": "thai_title_label",             "text": "Thai Chapter Title (editable):" },
+      "pr_4":  { "name": "comment_label",                "text": "Comment (optional):" },
+      "pr_6":  { "name": "page_header",                  "text": "Recovery Dharma - Translation Correction Tool" },
+      "pr_7":  { "name": "section_heading",              "text": "👤 About You" },
+      "pr_8":  { "name": "full_name_field",              "text": "Your Full Name *" },
+      "pr_9":  { "name": "email_field",                  "text": "Your Email Address *" },
+      "pr_10": { "name": "bio_field",                    "text": "Tell us about yourself (optional):" },
+      "pr_11": { "name": "overall_notes_field",          "text": "Overall review notes (optional):" },
+      "pr_13": { "name": "paragraph_id_label",           "text": "Paragraph ID:" },
+      "pr_14": { "name": "english_reference_label",      "text": "English (reference):" },
+      "pr_15": { "name": "thai_editable_label",          "text": "Thai (editable):" },
+      "pr_16": { "name": "comment_label",                "text": "Comment (optional):" },
+      "pr_17": { "name": "japanese_title_label",         "text": "Japanese Chapter Title (editable):" },
+      "pr_18": { "name": "korean_title_label",           "text": "Korean Chapter Title (editable):" },
+      "pr_19": { "name": "chinese_simp_title_label",     "text": "Simplified Chinese Chapter Title (editable):" },
+      "pr_20": { "name": "chinese_trad_title_label",     "text": "Traditional Chinese Chapter Title (editable):" },
+      "pr_21": { "name": "vietnamese_title_label",       "text": "Vietnamese Chapter Title (editable):" },
+      "pr_22": { "name": "japanese_editable_label",      "text": "Japanese (editable):" },
+      "pr_23": { "name": "korean_editable_label",        "text": "Korean (editable):" },
+      "pr_24": { "name": "chinese_simp_editable_label",  "text": "Simplified Chinese (editable):" },
+      "pr_25": { "name": "chinese_trad_editable_label",  "text": "Traditional Chinese (editable):" },
+      "pr_26": { "name": "vietnamese_editable_label",    "text": "Vietnamese (editable):" }
+    },
+
+    "thai": {
+      "pr_2":  { "name": "english_title_label",          "text": "English Chapter Title:" },
+      "pr_3":  { "name": "thai_title_label",             "text": "ชื่อบทภาษาไทย (แก้ไขได้):" },
+      "pr_4":  { "name": "comment_label",                "text": "ความคิดเห็น (ไม่บังคับ):" },
+      "pr_6":  { "name": "page_header",                  "text": "รีคัฟเวอรีธรรมะ - เครื่องมือแก้ไขการแปลภาษาไทย" },
+      "pr_7":  { "name": "section_heading",              "text": "👤 เกี่ยวกับคุณ" },
+      "pr_8":  { "name": "full_name_field",              "text": "ชื่อเต็ม *" },
+      "pr_9":  { "name": "email_field",                  "text": "อีเมล *" },
+      "pr_10": { "name": "bio_field",                    "text": "บอกเล็กน้อยเกี่ยวกับตัวคุณ (ไม่บังคับ):" },
+      "pr_11": { "name": "overall_notes_field",          "text": "บันทึกการตรวจสอบโดยรวม (ไม่บังคับ):" },
+      "pr_13": { "name": "paragraph_id_label",           "text": "รหัสย่อหน้า:" },
+      "pr_14": { "name": "english_reference_label",      "text": "English (reference):" },
+      "pr_15": { "name": "thai_editable_label",          "text": "ภาษาไทย (แก้ไขได้):" },
+      "pr_16": { "name": "comment_label",                "text": "ความคิดเห็น (ไม่บังคับ):" }
+    },
+
+    "japanese": {
+      "pr_2":  { "name": "english_title_label",          "text": "English Chapter Title:" },
+      "pr_17": { "name": "japanese_title_label",         "text": "日本語の章タイトル（編集可能）:" },
+      "pr_4":  { "name": "comment_label",                "text": "コメント（任意）:" },
+      "pr_6":  { "name": "page_header",                  "text": "リカバリーダルマ - 日本語翻訳修正ツール" },
+      "pr_7":  { "name": "section_heading",              "text": "👤 あなたについて" },
+      "pr_8":  { "name": "full_name_field",              "text": "氏名 *" },
+      "pr_9":  { "name": "email_field",                  "text": "メールアドレス *" },
+      "pr_10": { "name": "bio_field",                    "text": "自己紹介（任意）:" },
+      "pr_11": { "name": "overall_notes_field",          "text": "全体的なレビューノート（任意）:" },
+      "pr_13": { "name": "paragraph_id_label",           "text": "段落ID:" },
+      "pr_14": { "name": "english_reference_label",      "text": "English (reference):" },
+      "pr_22": { "name": "japanese_editable_label",      "text": "日本語（編集可能）:" },
+      "pr_16": { "name": "comment_label",                "text": "コメント（任意）:" }
+    },
+
+    "korean": {
+      "pr_2":  { "name": "english_title_label",          "text": "English Chapter Title:" },
+      "pr_18": { "name": "korean_title_label",           "text": "한국어 장 제목 (편집 가능):" },
+      "pr_4":  { "name": "comment_label",                "text": "댓글 (선택 사항):" },
+      "pr_6":  { "name": "page_header",                  "text": "리커버리 다르마 - 한국어 번역 수정 도구" },
+      "pr_7":  { "name": "section_heading",              "text": "👤 당신에 대해" },
+      "pr_8":  { "name": "full_name_field",              "text": "성명 *" },
+      "pr_9":  { "name": "email_field",                  "text": "이메일 주소 *" },
+      "pr_10": { "name": "bio_field",                    "text": "자신에 대해 알려주세요 (선택 사항):" },
+      "pr_11": { "name": "overall_notes_field",          "text": "전체 검토 노트 (선택 사항):" },
+      "pr_13": { "name": "paragraph_id_label",           "text": "단락 ID:" },
+      "pr_14": { "name": "english_reference_label",      "text": "English (reference):" },
+      "pr_23": { "name": "korean_editable_label",        "text": "한국어 (편집 가능):" },
+      "pr_16": { "name": "comment_label",                "text": "댓글 (선택 사항):" }
+    },
+
+    "chinese_simplified": {
+      "pr_2":  { "name": "english_title_label",          "text": "English Chapter Title:" },
+      "pr_19": { "name": "chinese_simp_title_label",     "text": "简体中文章节标题（可编辑）:" },
+      "pr_4":  { "name": "comment_label",                "text": "评论（可选）:" },
+      "pr_6":  { "name": "page_header",                  "text": "恢复正法 - 简体中文翻译修正工具" },
+      "pr_7":  { "name": "section_heading",              "text": "👤 关于您" },
+      "pr_8":  { "name": "full_name_field",              "text": "全名 *" },
+      "pr_9":  { "name": "email_field",                  "text": "电子邮件地址 *" },
+      "pr_10": { "name": "bio_field",                    "text": "介绍一下您自己（可选）:" },
+      "pr_11": { "name": "overall_notes_field",          "text": "整体审阅备注（可选）:" },
+      "pr_13": { "name": "paragraph_id_label",           "text": "段落ID:" },
+      "pr_14": { "name": "english_reference_label",      "text": "English (reference):" },
+      "pr_24": { "name": "chinese_simp_editable_label",  "text": "简体中文（可编辑）:" },
+      "pr_16": { "name": "comment_label",                "text": "评论（可选）:" }
+    },
+
+    "chinese_traditional": {
+      "pr_2":  { "name": "english_title_label",           "text": "English Chapter Title:" },
+      "pr_20": { "name": "chinese_trad_title_label",      "text": "繁體中文章節標題（可編輯）:" },
+      "pr_4":  { "name": "comment_label",                 "text": "評論（可選）:" },
+      "pr_6":  { "name": "page_header",                   "text": "恢復正法 - 繁體中文翻譯修正工具" },
+      "pr_7":  { "name": "section_heading",               "text": "👤 關於您" },
+      "pr_8":  { "name": "full_name_field",               "text": "全名 *" },
+      "pr_9":  { "name": "email_field",                   "text": "電子郵件地址 *" },
+      "pr_10": { "name": "bio_field",                     "text": "介紹一下您自己（可選）:" },
+      "pr_11": { "name": "overall_notes_field",           "text": "整體審閱備註（可選）:" },
+      "pr_13": { "name": "paragraph_id_label",            "text": "段落ID:" },
+      "pr_14": { "name": "english_reference_label",       "text": "English (reference):" },
+      "pr_25": { "name": "chinese_trad_editable_label",   "text": "繁體中文（可編輯）:" },
+      "pr_16": { "name": "comment_label",                 "text": "評論（可選）:" }
+    },
+
+    "vietnamese": {
+      "pr_2":  { "name": "english_title_label",          "text": "English Chapter Title:" },
+      "pr_21": { "name": "vietnamese_title_label",       "text": "Tiêu đề chương tiếng Việt (có thể chỉnh sửa):" },
+      "pr_4":  { "name": "comment_label",                "text": "Nhận xét (tùy chọn):" },
+      "pr_6":  { "name": "page_header",                  "text": "Phục Hồi Phật Pháp - Công cụ sửa bản dịch tiếng Việt" },
+      "pr_7":  { "name": "section_heading",              "text": "👤 Về bạn" },
+      "pr_8":  { "name": "full_name_field",              "text": "Họ và tên đầy đủ *" },
+      "pr_9":  { "name": "email_field",                  "text": "Địa chỉ email *" },
+      "pr_10": { "name": "bio_field",                    "text": "Giới thiệu về bản thân (tùy chọn):" },
+      "pr_11": { "name": "overall_notes_field",          "text": "Ghi chú đánh giá tổng thể (tùy chọn):" },
+      "pr_13": { "name": "paragraph_id_label",           "text": "ID đoạn văn:" },
+      "pr_14": { "name": "english_reference_label",      "text": "English (reference):" },
+      "pr_26": { "name": "vietnamese_editable_label",    "text": "Tiếng Việt (có thể chỉnh sửa):" },
+      "pr_16": { "name": "comment_label",                "text": "Nhận xét (tùy chọn):" }
+    }
+
+  }
+}

@@ -7,17 +7,21 @@ Define *how* to build,the  translations of the RDG Book
   
 ##init   
 run this script
-/home/scott/gitrepos/rdgtrans/read_docs.sh
+/home/scott/gitrepos/rdgtrans/read_docs.sh   
+work in /home/scott/gitrepos/rdgtrans/   
+And C:/Users/scott/Documents/AIProjects/Markdown/RDGTranslations
+Never work in /home/scott/inquirycircle while working on this project
+
   
 ## Paths
-**wslpath**: /home/scott/gitrepos/RDGAsianMD
+**wslpath**: /home/scott/gitrepos/rdgtrans
 **winoutput**: C:\Users\scott\Documents\RecoveryDharma\RDGBook\output_V1\
 **wslwin**:  \\wsl$\Ubuntu\home\scott\gitrepos\REGAsianMD  
 **workmasters**: \\wsl$\Ubuntu\home\scott\gitrepos\RDGAsianMD\workmasters
 **backup**:  \\wsl$\Ubuntu\home\scott\gitrepos\REGAsianMD\workmasters\archive  
+  **pyhome**: /home/scott/gitrepos/rdgtrans/py
 
-
-**dochome**  where the windows mardown documentation resides
+**dochome**  where the windows markdown documentation resides
 C:/Users/scott/Documents/AIProjects/Markdown/RDGTranslations
 
 **newhome**: the new how in wsl for the project
@@ -26,6 +30,8 @@ C:/Users/scott/Documents/AIProjects/Markdown/RDGTranslations
 **lmasters** the folder for the definitve language files the english master and the anguage translations
  \\wsl$\Ubuntu\home\scott\gitrepos\rdgtrans\lmasters
 
+**corrections**: The gihub location for submitted translation corrections 
+https://github.com/scott009/rdgtrans/corrections
 
 
 ## gitepos
