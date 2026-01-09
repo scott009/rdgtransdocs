@@ -1,0 +1,41 @@
+{
+    "created_time": "2025-12-31T15:13:32Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "created_time": "2025-12-31T15:30:10Z",
+            "id": "68",
+            "modified_time": "2025-12-31T15:30:10Z",
+            "name": "claude_sysimp.md",
+            "signature": "3070297368048255362",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2026-01-01T12:46:01Z",
+            "id": "84",
+            "modified_time": "2026-01-01T12:46:01Z",
+            "name": "cgptStart_sysimp.md",
+            "signature": "5012482013091228809",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2026-01-04T00:17:16Z",
+            "id": "89",
+            "modified_time": "2026-01-04T00:17:16Z",
+            "name": "cgptStart_docproj.md",
+            "signature": "6699099126016618892",
+            "tags": [
+            ]
+        }
+    ],
+    "folders": [
+    ],
+    "id": "67",
+    "modified_time": "2025-12-31T15:13:32Z",
+    "signature": "1871902656676838812",
+    "version": 3
+}
